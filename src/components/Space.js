@@ -1,5 +1,5 @@
 import React from 'react'
 
 export default () => (
-    <div className='my-12' />
+    <div className='mb-8' />
 )
