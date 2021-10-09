@@ -39,7 +39,7 @@ const Index = () => (
             ReactJS and Ruby on Rails Technologies.
             <br />
             <br />
-            At Tebellion, I'm currently using Ruby inspired Crystal lang and
+            At TEBillion, I'm currently using Ruby inspired Crystal lang and
             ReactJS inspired SolidJS technologies for various projects.
             <br />
             <br />

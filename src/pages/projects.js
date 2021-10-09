@@ -19,6 +19,24 @@ const Projects = () => (
     <div className="w-full bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal text-justify">
       <div className="mb-8">
         <UnHead
+          title="Tebillion Systems Pvt Ltd"
+          location="Mumbai, India"
+          position="Sr. Software Engineer"
+          year="May 2021 - Present"
+        />
+        <ProjectList
+          data={[
+            {
+              title: "WYSDOM DENTAL PMS",
+              desc:
+                " CloudPlus is a hardware tool that gives ability to dental practices to run it online\
+                or offline, it helps to manage and maintain practitioners and patients records. It consists of multiple micro-frontend\
+                applications.",
+            },
+          ]}
+        />
+        <Space />
+        <UnHead
           title="Ardentia Technologies Pvt Ltd"
           location="Mumbai, India"
           position="Sr. Software Engineer"
@@ -37,13 +55,6 @@ const Projects = () => (
               desc:
                 "ROTAANGEL manages shift rotas and staff holidays at busy dental practices to\
             ease the day-to-day admin’ load.",
-            },
-            {
-              title: "WYSDOM DENTAL PMS",
-              desc:
-                " CloudPlus is a hardware tool that gives ability to dental practices to run it online\
-                or offline, it helps to manage and maintain practitioners and patients records. It consists of multiple micro-frontend\
-                applications.",
             },
           ]}
         />
